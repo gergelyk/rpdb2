@@ -5,6 +5,10 @@ description = "rpdb2 module extracted from winpdb pacage."
 authors = ["Philippe Fremy, Nir Aides"]
 license = "GNU GPL"
 readme = "README.md"
+packages = [
+    { include = "rpdb" },
+    { include = "rpdb2.py" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.4"
